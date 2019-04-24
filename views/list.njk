@@ -1,0 +1,7 @@
+<h1>Listagem de usuarios </h1>
+<ul>
+{% for user in users %} {#estrutura de repetição#}
+<li>{{user}}</li>
+{% endfor %}
+</ul>
+<a href="/new">Cadastrar Usuário Novo</a>
